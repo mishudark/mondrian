@@ -48,3 +48,8 @@
 [[override]]
   branch = "master"
   name = "github.com/apache/thrift"
+
+[[override]]
+  branch = "master"
+  name = "github.com/google/credstore"
+  source = "github.com/mishudark/credstore"

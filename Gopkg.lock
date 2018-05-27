@@ -88,7 +88,8 @@
     "client",
     "jwt"
   ]
-  revision = "a3a076d38bd115884e40fe520b78e438cda17f47"
+  revision = "eb90da84508d3883d9a28f0ff1faefbb747daf0a"
+  source = "github.com/mishudark/credstore"
 
 [[projects]]
   branch = "master"
@@ -307,6 +308,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b43a12200c3f26e0385050483af4df9af4135004f95190cbac66d75d92e43f7c"
+  inputs-digest = "fd4830b966f53609c38a89e5470f773cf7ec522148e440ed0c199c49b7e15c0d"
   solver-name = "gps-cdcl"
   solver-version = 1
