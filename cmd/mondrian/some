@@ -1,0 +1,2 @@
+github.com/mishudark/mondrian/vendor/github.com/google/credstore/vendor/google.golang.org/grpc".UnaryServerInterceptor)
+github.com/mishudark/mondrian/vendor/google.golang.org/grpc".UnaryServerInterceptor in argument to grpc_middleware.ChainUnaryServer
