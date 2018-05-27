@@ -17,7 +17,7 @@ message SigningKeyReply {
   bytes signing_key = 1;
 }
 
-service Identity {
+service Mondrian {
   // CreateTicket creates a temporary token, called ticket, this has a
   // limited timelife and is used in requests to a service in behalf of the user,
   // the provided ticket should be used to any consecutive call, ideally should

@@ -48,7 +48,7 @@ func (s *server) SigningKey(ctx context.Context, req *pb.SigningKeyRequest) (*pb
 }
 
 // New retunrns an instance of Server using the provided services
-func New(indentityValidator mondrian.IdentityValidator, tokenCreator mondrian.TicketCreator) pb.IdentityServer {
+func New(indentityValidator mondrian.IdentityValidator, tokenCreator mondrian.TicketCreator) pb.MondrianServer {
 	return &server{
 		identity: indentityValidator,
 		ticket:   tokenCreator,

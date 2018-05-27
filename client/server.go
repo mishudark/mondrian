@@ -34,11 +34,11 @@ func HTTPMondrianHandler(handler http.HandlerFunc, publicKey crypto.PublicKey) h
 }
 
 func errorHandler(w http.ResponseWriter, r *http.Request, description string) {
-	json.NewEncoder(w).Encode(struct {
+	json.NewEncoder(w).Encode(struct { // nolint:errcheck
 		Description string `json:"description"`
 	}{
 		Description: description,
-	}) // nolint:errcheck
+	})
 	w.WriteHeader(401)
 }
 
