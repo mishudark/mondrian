@@ -49,7 +49,7 @@ func main() {
 	}
 
 	svr := server.New(identity, ticket)
-	pb.RegisterIdentityServer(grpcServer, svr)
+	pb.RegisterMondrianServer(grpcServer, svr)
 
 	glog.Error(serverhelpers.ListenAndServe(grpcServer, nil))
 }
